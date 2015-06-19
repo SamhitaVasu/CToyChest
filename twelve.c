@@ -13,3 +13,5 @@ int main()
    }while(j <= n);
    printf("%d\n", number);
 }
+
+//This program uses a do while loop to find the factorial of a number of your choice
