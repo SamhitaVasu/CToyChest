@@ -7,10 +7,12 @@ int main()
    scanf("%d", &n);
    int number = 1;
    int j = 1;
-   while(j <= n)
+   while(j <= n) //This is a while loop
    {
       number = number*j;
       j++;
    }
    printf("%d\n", number);
 }
+
+// This program uses a while loop to find the factorial of a number of your choice
