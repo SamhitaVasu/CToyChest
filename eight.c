@@ -16,3 +16,5 @@ int main()
    bonjour();
    bonjour();
 }
+
+//This program prints the numbers 1, 2, 3, 4, and 5
