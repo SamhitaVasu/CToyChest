@@ -11,3 +11,5 @@ int main()
    printf("%c %c %c %c \n", month[0], month[1], month[2], month[3]);
    printf("%s\n", month);
 }
+
+//This program uses a character array to print a string
