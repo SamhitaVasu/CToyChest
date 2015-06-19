@@ -21,4 +21,5 @@ int main()
    a.house_value = 650852.64;
    printf("%d %s %s %d %s %.2f \n", a.street_number, a.street, a.city, a.zip, a.state_abb, a.house_value);
 }
-   
+ 
+//This program prints out all the members of a structure  
