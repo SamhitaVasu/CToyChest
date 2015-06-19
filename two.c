@@ -4,8 +4,8 @@ int main()
 {
    int i = 0;
    printf("PLease enter a number: ");
-   scanf("%d",&i);
-   printf("%d\n", i);
+   scanf("%d",&i);  //Read what user has typed
+   printf("%d\n", i); //Print the number user has typed
    printf("Hello World!\n");
 }
 
