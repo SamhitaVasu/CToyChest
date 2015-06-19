@@ -25,4 +25,6 @@ int main()
          printf("Try again\n");
          break;
    }
-} 
+}
+
+//This program uses switch case to evaluate a number of your choice 
