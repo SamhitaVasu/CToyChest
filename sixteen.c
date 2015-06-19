@@ -54,3 +54,5 @@ int main()
    }
    printf("You picked %d even numbers\n", n);
 }
+
+//This program lets you assign all the indexes of the array. Then, it prints the number of even values that you chose for the array,
