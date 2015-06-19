@@ -10,3 +10,5 @@ int main()
    int j = arr[7];
    printf("%d\n", j);
 }
+
+// This program uses a for loop to assign the indexes of the array. It then prints out the value of the 7th index of the array
