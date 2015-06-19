@@ -19,3 +19,5 @@ int main()
       printf("%d is odd\n", j);
    }
 }
+
+/ This program uses a for loop to assign the indexes of an array. Then, it asks you to choose a value of one of the indexes and it tells you whether it is even.
