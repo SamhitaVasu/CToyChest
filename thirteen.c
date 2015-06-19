@@ -7,3 +7,5 @@ int main()
    today = Wednesday;
    printf("Day %d\n", today+1);
 }
+
+// This program tells you the number of the day of the week, Sunday being Day 1
