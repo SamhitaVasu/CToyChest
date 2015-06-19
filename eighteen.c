@@ -19,3 +19,5 @@ int main()
    c[i] = '\0';
    printf("%s\n", c);
 }
+
+//This program combines two strings to create a new string
