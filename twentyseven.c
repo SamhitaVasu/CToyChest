@@ -28,10 +28,10 @@ s* enq(int val)
 
 }
 
-s* deq()
+int deq()
 {
    first = first->next;
-   return 0;
+   return(first == NULL? -1: 0);
 }
 
 void print_list()
@@ -42,7 +42,7 @@ void print_list()
         printf("\n [%s] \n",ptr->c);
         ptr = ptr->next;
     }
-    printf("~~~~~~~~~");
+    printf("~~~~~~~~~\n");
     return;
 }
 
@@ -60,4 +60,4 @@ int main()
     return 0;
 }
 
-//This program enqueues components of a linked list and then dequeues some components, printing both versions of the linked list. Enqueue and dequeue are terms used when making and managing a linked list using a queue, or the FIFO convention.
+//Queue program: Enqueues components into a linked list and then dequeues a few components
