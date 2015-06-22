@@ -7,7 +7,7 @@ typedef struct Node
    struct Node *next;
 }s;
 
-s *first = NULL, *last = NULL; //Declare pointers that will later be used
+s *first = NULL; //Declare pointers that will later be used
 
 s* push(int val)
 {
@@ -16,7 +16,7 @@ s* push(int val)
    ptr->next = NULL;
    if(first == NULL)
    {
-      first = last = ptr;
+      first = ptr;
       return ptr;
    }
    else
@@ -28,10 +28,10 @@ s* push(int val)
 
 }
 
-s* pop()
+int pop()
 {
    first = first->next;
-   return 0;
+   return (first==NULL? -1: 0);
 }
 
 void print_list()
@@ -60,4 +60,4 @@ int main()
     return 0;
 }
 
-//This program pushes components into a linked list(s) and then pops a few of the components out of the linked list. Pushing and popping are terms used when making and managing a linked list using a stack, or the LIFO convention.
+//Stack program: Pushes components into a linked list and then pops a few components out.
