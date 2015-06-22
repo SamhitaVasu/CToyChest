@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 typedef struct Node
@@ -49,5 +49,4 @@ int main()
     return 0;
 }
 
-//This program makes a linked list and prints it out. The result will be five nodes with identical values but different labels. The first node (head) will point to an unlabled node. That 
-//unlabled node will point to another unlabled node and that one to another unlabled node. The fourth node, or third unlabled node in the linked list, will point to the last node, labled curr.
+// This program makes a linked list and prints it out. The result will be five nodes with identical values but different labels. The first node (head) will point to an unlabled node. That unlabled node will point to another unlabled node and that one to another unlabled node. The fourth node, or third unlabled node in the linked list, will point to the last node, labled curr.
