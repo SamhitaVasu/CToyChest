@@ -5,7 +5,7 @@ FILE * fptr;
 int main()
 {
    char fileLine[100]= "Hello world!";
-   fptr = fopen("./file1.txt", "r+");
+   fptr = fopen("./file.txt", "r+");
    
    if (fptr != 0)
    {
@@ -25,3 +25,5 @@ int main()
    fclose(fptr);
    return 0;
 }
+
+//For this file reading program to work, run the thirtyone.c, file writing, file.
